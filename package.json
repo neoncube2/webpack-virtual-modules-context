@@ -1,0 +1,17 @@
+{
+	"name": "webpack-virtual-modules-context",
+	"version": "1.0.0",
+	"license": "MIT",
+	"scripts": {
+		"build": "yarn run webpack"
+	},
+	"private": true,
+	"sideEffects": false,
+	"type": "module",
+	"devDependencies": {
+		"webpack": "https://pkg.pr.new/webpack@214f361",
+		"webpack-cli": "*",
+		"webpack-dev-server": "*"
+	},
+	"packageManager": "yarn@4.12.0"
+}

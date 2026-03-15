@@ -1,0 +1,1 @@
+import './loader.js!virtual:C:/project/user.js';
