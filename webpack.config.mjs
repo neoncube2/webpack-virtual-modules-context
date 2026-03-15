@@ -7,7 +7,6 @@ const WEBPACK_CONFIG = {
         new webpack.experiments.schemes.VirtualUrlPlugin(
             {
                 'C:/project/user.js': {
-                    type: '.js',
                     source: () => `import './username.js';`
                 }
             }
