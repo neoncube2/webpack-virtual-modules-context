@@ -1,1 +1,1 @@
-import './loader.js!virtual:C:/project/user.js';
+import 'virtual:C:/project/user.js';
