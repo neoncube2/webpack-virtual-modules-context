@@ -1,7 +1,7 @@
 import webpack from 'webpack';
 
 const WEBPACK_CONFIG = {
-    entry: '/index.js',
+    entry: 'virtual:C:/project/user.js',
     mode: 'production',
     plugins: [
         new webpack.experiments.schemes.VirtualUrlPlugin(
